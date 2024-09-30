@@ -1,0 +1,37 @@
+.h1ste{
+    font-size: 120px;
+
+    color: black;
+
+    font-style: italic;
+
+    font-family: "Gowun Batang", serif;
+
+}
+
+.gowun-batang-regular {
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.box{
+    position: absolute;
+    top: 0px;
+    width: 300vh;
+    height: 100vh;
+    background-color: navy;
+    border: 2px;
+    border-color: yellowgreen;
+    border-style: solid;
+    color: orangered;
+}
+
+html{
+    font-size: 16px;
+
+}
+
+div{
+    font-size: 40px;
+}
