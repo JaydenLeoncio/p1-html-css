@@ -1,37 +1,31 @@
-.h1ste{
-    font-size: 120px;
-
-    color: black;
-
+h1{
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
     font-style: italic;
-
-    font-family: "Gowun Batang", serif;
-
 }
 
-.gowun-batang-regular {
-    font-family: "Gowun Batang", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-.box{
-    position: absolute;
-    top: 0px;
-    width: 300vh;
-    height: 100vh;
-    background-color: navy;
-    border: 2px;
-    border-color: yellowgreen;
-    border-style: solid;
-    color: orangered;
+h2{
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
 }
 
-html{
+h3{
     font-size: 16px;
-
+    color: teal;
+    font-weight: bold;
 }
 
-div{
-    font-size: 40px;
+.paragraaf{
+    color: #4D4D4D;
+}
+
+.paragraaf:first-of-type{
+    font-weight: bold;
+}
+
+a{
+    color: #8A2BE2;
+    text-decoration: none;
 }
