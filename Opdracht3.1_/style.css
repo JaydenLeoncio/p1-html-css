@@ -6,9 +6,9 @@
 html {
   font-size: 62.5%;
 }
-.index{
+.index {
   font-family: "Goldman", cursive;
-  background-image: url(img/Background2.png);
+  background-image: url(img/Backigroundi.png);
 }
 
 nav {
@@ -38,67 +38,65 @@ nav a {
 nav img {
   width: 5vw;
 }
-
-h1{
-  color: white;
-}
-
-.title{
+.I-1{
   font-size: 47px;
-}
-
-.HTMLCSS{
- background-color: white;
- font-family: "Goldman", cursive;
-}
-
-.title{
-  color: black;
-}
-
-.title1{
   color: white;
 }
-
-.pica{
-  height: 400px;
-  width: 500px;
+.Contact{
+  background-color: white;
+  font-family: "Goldman", cursive;
 }
-
-.javascript{
-  background-color: black;
-}
-
-.textj{
-  color: white;
-}
-
-.javsc{
-  float: right;
-  height: 313px;
-  width: 303px;
-}
-
-.javie{
-  color: white;
-}
-
-.groot{
-  width: 300px;
-  height: 200px;
-}
-.name{
-   width: 300px;
+.naam{
+  width: 333px;
 }
 .email{
-   width: 300px;
+  width: 333px;
 }
-
-.yoyo{
-  height: 313px;
-  width: 303px;
+.bericht{
+  width: 333px;
+  height: 133px;
 }
-
+.submit{
+  width: 333px;
+  height: 30px;
+}
+.phph1{
+  width: 200px;
+}
+.SQL{
+  font-family: "Goldman", cursive;
+  background-color: black;
+}
+.PHP{
+  font-family: "Goldman", cursive;
+}
+.CSS{
+  font-family: "Goldman", cursive;
+}
+.Javascript{
+  font-family: "Goldman", cursive;
+  background-color: black;
+}
 .rightside{
   float: right;
+}
+.javatext{
+  color: white;
+}
+.sqltext{
+  color: white;
+}
+.pica {
+  width: 40vw;
+  position: fixed;
+  left: 5%;
+}
+.csstxt {
+  margin-left: 50vw;
+  width: 40vw;
+  font-size: 1vw;
+}
+
+.Contacttxt {
+  width: 
 }

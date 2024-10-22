@@ -1,0 +1,111 @@
+.logo{
+    width: auto ;
+    height: 13vh;
+    background-color: rgb(255, 94, 94);
+    color: white;
+
+}
+ 
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+
+}
+ 
+.tekst1{
+    width: auto;
+    height: 29vh;
+    background-color: rgb(255, 212, 41);
+    font-weight: bold;
+
+ 
+}
+ 
+.tekst2{
+    width: auto;
+    height: 29vh;
+    background-color: rgb(255, 158, 11);
+    font-weight: bold;
+ 
+}
+ 
+.tekst3{
+    width: auto;
+    height: 29vh;
+    background-color: rgb(42, 163, 42);
+    font-weight: bold;
+
+}
+
+.tekst{
+    position: relative;
+    left: 2%;
+    font-size: 25px;
+}
+.tekstp{
+position: relative;
+left: 2%;
+}
+
+
+.teksth1{
+    position: relative;
+    left: 2%;
+    font-size: 30px;
+
+}
+@media screen and (min-width: 1024px){}
+
+@media screen and (min-witdh: 768) ,(max-width: 1023px){
+    .teksth1{
+        position: absolute;
+    left: 50%;
+    top: 5%;
+    }
+    .logo{
+        background-color: rgb(255, 94, 94);
+
+    }
+    .tekst1{
+        background-color: rgb(219, 53, 81);
+        color: #ffffff;
+
+    }
+    .tekst2{
+        background-color: rgb(87, 76, 190);
+    color: #ffffff;
+    }
+    .tekst3{
+        background-color: rgb(54, 32, 201);
+        color: #ffffff;
+    }
+}
+@media screen and (max-width: 767px){
+.logo{background-color: cornflowerblue;
+    color: #ffffff;
+}
+.tekst1{background-color: rgb(144, 222, 233);
+color: #ffffff;
+text-align: center;
+}
+.tekst2{background-color: rgb(224, 114, 219);
+color: #ffffff;
+text-align: center;
+}
+.tekst3{background-color: darkslateblue;
+color: #ffffff;
+text-align: center;
+}
+.teksth1{position: absolute;
+left: 4%;}
+.vierkant{
+    position: absolute;
+    top: 5%;
+    left: 93%;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+}
+}
