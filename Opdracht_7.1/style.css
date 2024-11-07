@@ -108,4 +108,15 @@ left: 4%;}
     height: 20px;
     background-color: #ffffff;
 }
+.extra-element {
+    display: none;
+}
+@media (max-width: 768px) {
+    .extra-element {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: #ff0000;
+    }
+}
 }
