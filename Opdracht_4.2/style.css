@@ -1,0 +1,70 @@
+h1 {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+h2{
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+h3 {
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+
+p:first-of-type {
+    font-weight: bold;
+    color: #4D4D4D;
+}
+
+p {
+    color: #4D4D4D;
+}
+
+a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
+body {
+    background-color: #e6f7e6; 
+    font-family: 'Arial', sans-serif;
+    color: #2e4d28; 
+}
+header {
+    width: 100vw;
+    height: 40vh;
+    background-image: url('forest-mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+header h1 {
+    color: #fff;
+    font-size: 2.5rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+header p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+img {
+    width: 50vw; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+article {
+    border: 2px solid #8b5e3c;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
