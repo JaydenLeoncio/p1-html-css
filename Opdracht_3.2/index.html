@@ -3,89 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TUI</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
+    <h1>Boeking formulier</h1>
+    <form action="">
+<label for="firstname">Voornaam</label><br>
+<input type="text" name="firstname" pattern="[a-zA-Z]">
+<br>
 
-<h1>Boekingsformulier</h1>
+<label for="lastname">Achternaam</label><br>
+<input type="text" name="lastname" pattern="[a-zA-Z]">
+<br>
 
-<form action="">
-    <label for="firstname">Voornaam</label>
-    <input type="text" name="firstname" id=""> 
-    <br> <br>
+<label for="travellers">Aantal reizigers</label><br>
+<input type="number" name="travellers" id="travellers" min="1" max="4"><br>
 
-    <label for="Lastname">Achternaam</label>
-    <input type="text" name="Lastname" id=""> 
-    <br> <br>
 
-    <label for="Gender">Geslacht</label>
-    <input type="radio" name="Gender" id="" value="Man" checked/> Man
-    <input type="radio" name="Gender" id="" value="Vrouw"> Vrouw
-    <br> <br>
 
-<label for="street">Straat</label>
-<input type="text" name="street" id=""> <br> <br>
-    <label for="housenumber">Huisnummer</label>
-    <input type="text" name="Huisnummer" id="">
-    <br><br>
 
-    <label for="areacode">Postcode</label> 
-    <input type="text" name="areacode">
-    <br><br>
+<label for="date_leave">Datum van vertrek</label>
+       <input type="date" name="date_leave" min="2024-09-25">
 
-    <label for="City">Stad</label>
-    <input type="text" name="City id="">
-<br><br>
+       <label for="Datetoreturn">Datum van terugkomst</label><br>
+<input type="date" name="Datetoreturn" id="" min="2024-09-25">
+<br>
+<br>
 
-<label for="country">Land</label>
-<input type="text" name="country" id="">
-<br><br>
+<label for="gender">Geslacht</label><br>
+<input type="radio" name="gender" value="man" checked>Man 
+<input type="radio" name="gender" value="vrouw">Vrouw
+<br>
 
-<label for="BSN">BSN Nummer</label> 
-<input type="text" name="BSN" id="" pattern="1-9">
-<br><br>
+<label for="street">Straat</label><br>
+<input type="text" name="street">
+<br>
 
-<label for="Vacation">Selecteer</label>
-<select name="Vacation" id="Vacation">
-<option value="Selecteer">Selecteer een land</option>
-<option value="Turkije">Turkije</option>
-<option value="Kroatië">Kroatië</option>
-<option value="Monaco">Manaco</option>
-<option value="Spanje">Spanje</option>
-</select>
-<br> <br>
+<label for="housenumber">Huisnummer</label><br>
+<input type="text" name="housenumber">
+<br>
 
-<label for="Datetoleave">Datum van vertrek</label>
-<input type="date" name="Datetoleave" id="" min="2024">
-<br><br>
-
-<label for="Datetoreturn">Datum van terugkomst</label>
-<input type="date" name="Datetoreturn" id="" min="2024">
-<br><br>
-
-<label for="Howmanypeople">Aantal Reisgenoten</label>
-<input type="radio" name="Howmanypeople">1
-<input type="radio" name="Howmanypeople">2
-<input type="radio" name="Howmanypeople">3
-<input type="radio" name="Howmanypeople">4
-<br><br>
-
+<label for="city">stad</label><br>
+<input type="text" name="city">
+<br>
+<label for="country">land</label><br>
+<input type="text" name="country">
+<br>
+<label for="BSN-number">bsn-nummer</label><br>
+<input type="nummer" name="BSN-number" maxlength="9">
+<br>
+<label for="cars">welke land wil je naar toe reizen:</label>
+  <select name="cars" id="cars">
+    <option value="Rusland">Rusland</option>
+    <option value="Turkije">Turkije</option>
+    <option value="Kroatië">Kroatië</option>
+    <option value="USA">USA</option>
+  </select>
+  <br><br>
 <input type="submit" value="Boek nu">
 <br><br>
-
+ 
 <label for="Account"><h2>Account maken</h2></label>
-
+ 
 <label for="mail">E-mail</label>
 <input type="email">
 <br> <br>
-
+ 
 <label for="pass">Wachtwoord</label>
 <input type="password">
 
 
-
-</form>
-
 </body>
+
 </html>
